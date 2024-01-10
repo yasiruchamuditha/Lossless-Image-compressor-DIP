@@ -19,8 +19,8 @@ body
 	position: relative;
 	margin-top: 80px;
 	left: 550px;
-	width: 400px;
-	height: 450px;
+	width: 500px;
+	height: 500px;
 	background: #1c1c1c;
 	border-radius: 8px;
 	overflow: hidden;
@@ -73,6 +73,7 @@ form
 	z-index: 2;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 h2 
 {
@@ -85,7 +86,7 @@ h2
 {
 	position: relative;
 	width: 300px;
-	margin-top: 35px;
+	margin-top: 50px;
 }
 .inputBox input 
 {

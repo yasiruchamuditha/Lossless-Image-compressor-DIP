@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Image Compressor</title>
+	<title>COMPRESS ME - IMAGE COMPRESSOR</title>
     <link rel="stylesheet" href="static/style.css">
+	<link rel="icon" type="images/x-icon" href="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-1/177800/01-1024.png" />
 </head>
 <body>
 	{% include 'nav.html' %}
 	<div class="box">
 		<form autocomplete="off" method="POST" action="/upload" enctype="multipart/form-data">
-			<h2 style="color: white;margin-bottom: 50px;">IMAGE COMPRESSOR</h2>
-			<input type="file" name="file" accept=".jpg, .jpeg, .png" required>
+			<h2 style="color: white;margin-top: 0px;">IMAGE COMPRESSOR</h2>
+			<input type="file" name="file" accept=".jpg, .jpeg, .png" required style="margin-top: 40px; margin-left: 50px;">
 
-			<input type="submit" value="Compress" style="margin-top: 50px;">
+			<input type="submit" value="Compress" style="margin-top: 40px;margin-left: 50px;">
             {% if compressed %}
-            <p></br><center>Image compressed successfully!</center> <button><a href="/download">Download Compressed Image</a></button></p>
+            <p></br><center>Image compressed successfully!</center> 
+			<button style="margin-top: 5px; margin-left: 50px;"><a href="/download">Download Compressed Image</a></button></p>
         {% endif %}
     
         {% if error %}
