@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-These instructions will help you set up and run the this python based web application locally on the machine.
+These instructions will help you set up and run this Python-based web application locally on the machine.
 
 ## Description
 
@@ -21,12 +21,20 @@ Users Can Upload an Image For This Application, and The Application Will Compres
 
 ## Prerequisites
 
-[Make sure that the computer have Python and pip installed on your machine.]
+[
+ Make sure that the computer has Python and pip installed on your machine.
+]
 
 ## Installation
 
 [
-Download the compressor.zip file to the local computer and extract the compressor.zip and save extracted file to the computer.
+ Download the compressor.zip file to the local computer, extract the compressor.zip, and save the extracted file to the computer.
+ 
+ OR
+ 
+ Clone the repository:
+ 
+     git clone https://github.com/your-username/flask-image-compressor.git](https://github.com/yasiruchamuditha/Lossless-Image-compressor-DIP.git
 ]
 
 ## Navigation
@@ -36,7 +44,7 @@ Navigate to the project directory:
 
 cd compressor
 
-After navigating to the file and open with Code Editor.
+After navigating to the file and opening it with Code Editor.
 ]
 
 ## Setup
@@ -46,19 +54,24 @@ After navigating to the file and open with Code Editor.
 
     python -m venv venv
 
-    Activate the virtual environment:
-    On Windows: venv\Scripts\activate
-    On macOS/Linux: source venv/bin/activate
+Activate the virtual environment:
+On Windows: venv\Scripts\activate
+
+On macOS/Linux: source venv/bin/activate
 ]
 
 ## Dependencies
 
 [
-Install Flask Library
-pip install flask
 
-Install Pillow Library
-pip install pillow
+Install Flask Library:
+
+    pip install flask
+
+Install Pillow Library:
+
+    pip install pillow
+    
 ]
 
 ## Usage
@@ -66,7 +79,7 @@ pip install pillow
 [
 Run the application:
 
-python app.py
+    python app.py
 
 After running :
 
@@ -81,5 +94,5 @@ If compression is successful, can download the compressed image.
 
 [
 This project is created to implement a Lossless Image Compression Algorithm Using Variable Block Size Segmentation.
-Feel free to use and modify the content as need.
+Feel free to use and modify the content as needed.
 ]
