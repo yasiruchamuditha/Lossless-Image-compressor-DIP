@@ -48,6 +48,7 @@ After navigating to the file and opening it with Code Editor.
 
 Activate the virtual environment:
 On Windows: venv\Scripts\activate
+
 On macOS/Linux: source venv/bin/activate
 ]
 
