@@ -55,9 +55,11 @@ After navigating to the file and opening it with Code Editor.
 
 [
 Install Flask Library:
+
 pip install flask
 
 Install Pillow Library:
+
 pip install pillow
 ]
 
