@@ -21,12 +21,19 @@ Users Can Upload an Image For This Application, and The Application Will Compres
 
 ## Prerequisites
 
-[Make sure that the computer has Python and pip installed on your machine.]
+[
+ Make sure that the computer has Python and pip installed on your machine.
+]
 
 ## Installation
 
 [
-Download the compressor.zip file to the local computer, extract the compressor.zip, and save the extracted file to the computer.
+ Download the compressor.zip file to the local computer, extract the compressor.zip, and save the extracted file to the computer.
+ 
+ OR
+ 
+ Clone the repository:
+     git clone https://github.com/your-username/flask-image-compressor.git](https://github.com/yasiruchamuditha/Lossless-Image-compressor-DIP.git
 ]
 
 ## Navigation
