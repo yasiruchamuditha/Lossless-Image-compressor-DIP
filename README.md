@@ -46,21 +46,23 @@ After navigating to the file and opening it with Code Editor.
 
     python -m venv venv
 
-    Activate the virtual environment:
-    On Windows: venv\Scripts\activate
-    On macOS/Linux: source venv/bin/activate
+Activate the virtual environment:
+On Windows: venv\Scripts\activate
+On macOS/Linux: source venv/bin/activate
 ]
 
 ## Dependencies
 
 [
+
 Install Flask Library:
 
-pip install flask
+    pip install flask
 
 Install Pillow Library:
 
-pip install pillow
+    pip install pillow
+    
 ]
 
 ## Usage
@@ -68,7 +70,7 @@ pip install pillow
 [
 Run the application:
 
-python app.py
+    python app.py
 
 After running :
 
