@@ -25,9 +25,6 @@ def compress_image(input_image_path, output_image_path, block_size=8):
             # Crop the block from the original image
             block = img.crop((x, y, x + block_size, y + block_size))
             
-            # Perform your compression algorithm on the block here
-            # Replace this with your actual compression logic
-            
             # Paste the compressed block into the result image
             compressed_img.paste(block, (x, y))
     
