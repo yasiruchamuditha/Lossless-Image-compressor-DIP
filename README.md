@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-These instructions will help you set up and run this python based web application locally on the machine.
+These instructions will help you set up and run this Python-based web application locally on the machine.
 
 ## Description
 
@@ -33,6 +33,7 @@ Users Can Upload an Image For This Application, and The Application Will Compres
  OR
  
  Clone the repository:
+ 
      git clone https://github.com/your-username/flask-image-compressor.git](https://github.com/yasiruchamuditha/Lossless-Image-compressor-DIP.git
 ]
 
