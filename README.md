@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-These instructions will help you set up and run the this python based web application locally on the machine.
+These instructions will help you set up and run this python based web application locally on the machine.
 
 ## Description
 
@@ -21,12 +21,12 @@ Users Can Upload an Image For This Application, and The Application Will Compres
 
 ## Prerequisites
 
-[Make sure that the computer have Python and pip installed on your machine.]
+[Make sure that the computer has Python and pip installed on your machine.]
 
 ## Installation
 
 [
-Download the compressor.zip file to the local computer and extract the compressor.zip and save extracted file to the computer.
+Download the compressor.zip file to the local computer, extract the compressor.zip, and save the extracted file to the computer.
 ]
 
 ## Navigation
@@ -36,7 +36,7 @@ Navigate to the project directory:
 
 cd compressor
 
-After navigating to the file and open with Code Editor.
+After navigating to the file and opening it with Code Editor.
 ]
 
 ## Setup
@@ -54,10 +54,10 @@ After navigating to the file and open with Code Editor.
 ## Dependencies
 
 [
-Install Flask Library
+Install Flask Library:
 pip install flask
 
-Install Pillow Library
+Install Pillow Library:
 pip install pillow
 ]
 
@@ -81,5 +81,5 @@ If compression is successful, can download the compressed image.
 
 [
 This project is created to implement a Lossless Image Compression Algorithm Using Variable Block Size Segmentation.
-Feel free to use and modify the content as need.
+Feel free to use and modify the content as needed.
 ]
