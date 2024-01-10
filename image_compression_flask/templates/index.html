@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
+	{% include 'nav.html' %}
 	<div class="box">
 		<form autocomplete="off" method="POST" action="/upload" enctype="multipart/form-data">
-			<h2>IMAGE COMPRESSOR</h2>
+			<h2 style="color: white;margin-bottom: 50px;">IMAGE COMPRESSOR</h2>
 			<input type="file" name="file" accept=".jpg, .jpeg, .png" required>
 
-			<input type="submit" value="Compress">
+			<input type="submit" value="Compress" style="margin-top: 50px;">
             {% if compressed %}
             <p></br><center>Image compressed successfully!</center> <button><a href="/download">Download Compressed Image</a></button></p>
         {% endif %}
@@ -23,6 +24,6 @@
 		</form>
    
 	</div>
-	
+	{% include 'footer.html' %}
 </body>
 </html>

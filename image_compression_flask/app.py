@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request, send_file
-from PIL import Image
-import os
+from flask import Flask, render_template, request, send_file #pip install flask
+from PIL import Image #pip install pillow
+import os #pip install os-sys
 
 app = Flask(__name__)
 
